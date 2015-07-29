@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>__block ASIHTTPRequest *request = [ASIHTTPRequest requestWithURL:url];
+   
+ request.username = kUSER_BASIC_AUTH_HTTP;
+request.password = kPASSWORD_BASIC_AUTH_HTTP;
+[request setUseSessionPersistence:YES];
+        
+request.userAgent = @"iOS";
+request.shouldRedirect = YES;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>1E642FEE-392F-4101-9FDF-F57D98215E19</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Autentication call WS (BASIC AUTH HTTP)</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

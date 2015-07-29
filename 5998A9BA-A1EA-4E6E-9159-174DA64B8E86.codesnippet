@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>NSSortDescriptor *ordineSD = [NSSortDescriptor sortDescriptorWithKey: @"campo" ascending: YES];
+    
+NSArray* arrayOrdinato = [arrayDaOrdinare sortedArrayUsingDescriptors:[NSArray arrayWithObjects:ordineSD, nil]];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>5998A9BA-A1EA-4E6E-9159-174DA64B8E86</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Order elements NSArray</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
